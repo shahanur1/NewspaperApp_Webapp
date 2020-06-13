@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %} 
+	<div class="jumbotron">
+		<h1 class="display-�"> প্রতিদিনের খবর </h1>
+		<p class="lead">সকল খবর দেখতে চাইলে নিচের বাটনে ক্লিক করুন</p> 
+		<p class="lead">
+		<a class="btn btn-primary btn-lg" href="{% url 'article_list' %}" role="button"> প্রতিদিনের খবর </a>
+		</p> 
+	</div>
+{% endblock %}
